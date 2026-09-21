@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slopfest"
+version = "0.96.5"
+description = "Slopfest: an original pygame-ce real-time space strategy game inspired by 90s PC classics."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["pygame-ce>=2.5.8,<3"]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6"]
+
+[project.scripts]
+slopfest = "slopfest.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+slopfest = [
+  "assets/*.json",
+  "assets/*.txt",
+  "assets/icons/*.png",
+  "assets/minerals/*.png",
+  "assets/specializations/*.png",
+  "assets/weapons/*.png",
+  "assets/modules/*.png",
+  "assets/factions/*.png",
+  "assets/ship/*.png",
+]

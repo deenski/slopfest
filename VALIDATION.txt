@@ -1,0 +1,10 @@
+Slopfest v0.96.3 validation
+
+Python files parsed: 22
+compileall: True
+Required provenance/license docs: 8
+SOURCES.md present: yes
+Explicit ChatGPT generation provenance: yes
+Reference ledger includes historical/gameplay/dependency/asset research: yes
+Python cache/bytecode files in release tree: 0
+pygame-family runtime dependency: pygame-ce only

@@ -1,0 +1,677 @@
+{
+  "license": "Original Slopfest project art; licensed under the repository MIT LICENSE unless otherwise noted",
+  "assets": {
+    "icons/intel.png": {
+      "category": "ui-icon",
+      "description": "intel UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/ship.png": {
+      "category": "ui-icon",
+      "description": "ship UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/sector.png": {
+      "category": "ui-icon",
+      "description": "sector UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/trade.png": {
+      "category": "ui-icon",
+      "description": "trade UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/hostility.png": {
+      "category": "ui-icon",
+      "description": "hostility UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/income.png": {
+      "category": "ui-icon",
+      "description": "income UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/credits.png": {
+      "category": "ui-icon",
+      "description": "credits UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/garrison.png": {
+      "category": "ui-icon",
+      "description": "garrison UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/defense.png": {
+      "category": "ui-icon",
+      "description": "defense UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/infrastructure.png": {
+      "category": "ui-icon",
+      "description": "infrastructure UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/radar.png": {
+      "category": "ui-icon",
+      "description": "radar UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/cargo.png": {
+      "category": "ui-icon",
+      "description": "cargo UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/marines.png": {
+      "category": "ui-icon",
+      "description": "marines UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/artifact.png": {
+      "category": "ui-icon",
+      "description": "artifact UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/relay.png": {
+      "category": "ui-icon",
+      "description": "relay UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/development.png": {
+      "category": "ui-icon",
+      "description": "development UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/distance.png": {
+      "category": "ui-icon",
+      "description": "distance UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/owner.png": {
+      "category": "ui-icon",
+      "description": "owner UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "icons/close.png": {
+      "category": "ui-icon",
+      "description": "close UI icon",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/iron.png": {
+      "category": "mineral",
+      "description": "ore chunks",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/silica.png": {
+      "category": "mineral",
+      "description": "crystal cluster",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/cobalt.png": {
+      "category": "mineral",
+      "description": "blue crystal",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/rare_earths.png": {
+      "category": "mineral",
+      "description": "rare-earth crystal",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/helium_3.png": {
+      "category": "mineral",
+      "description": "gas isotope",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "minerals/uranium.png": {
+      "category": "mineral",
+      "description": "radioactive ore",
+      "size": [
+        20,
+        20
+      ]
+    },
+    "specializations/mining_colony.png": {
+      "category": "specialization",
+      "description": "mining colony",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "specializations/trade_hub.png": {
+      "category": "specialization",
+      "description": "trade hub",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "specializations/shipyard.png": {
+      "category": "specialization",
+      "description": "shipyard",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "specializations/fortress.png": {
+      "category": "specialization",
+      "description": "fortress",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "specializations/research_outpost.png": {
+      "category": "specialization",
+      "description": "research outpost",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "weapons/pulse_laser.png": {
+      "category": "weapon",
+      "description": "Pulse Laser",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "weapons/twin_laser.png": {
+      "category": "weapon",
+      "description": "Twin Laser",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "weapons/heavy_blaster.png": {
+      "category": "weapon",
+      "description": "Heavy Blaster",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "weapons/relay_lance.png": {
+      "category": "weapon",
+      "description": "Relay Lance",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/shield_t1.png": {
+      "category": "module",
+      "description": "shield tier 1",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/shield_t2.png": {
+      "category": "module",
+      "description": "shield tier 2",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/shield_t3.png": {
+      "category": "module",
+      "description": "shield tier 3",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/shield_t4.png": {
+      "category": "module",
+      "description": "shield tier 4",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/engine_t1.png": {
+      "category": "module",
+      "description": "engine tier 1",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/engine_t2.png": {
+      "category": "module",
+      "description": "engine tier 2",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/engine_t3.png": {
+      "category": "module",
+      "description": "engine tier 3",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/engine_t4.png": {
+      "category": "module",
+      "description": "engine tier 4",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/radar_t1.png": {
+      "category": "module",
+      "description": "radar tier 1",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/radar_t2.png": {
+      "category": "module",
+      "description": "radar tier 2",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/radar_t3.png": {
+      "category": "module",
+      "description": "radar tier 3",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/radar_t4.png": {
+      "category": "module",
+      "description": "radar tier 4",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/cargo_t1.png": {
+      "category": "module",
+      "description": "cargo tier 1",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/cargo_t2.png": {
+      "category": "module",
+      "description": "cargo tier 2",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/cargo_t3.png": {
+      "category": "module",
+      "description": "cargo tier 3",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/cargo_t4.png": {
+      "category": "module",
+      "description": "cargo tier 4",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/unique_ghost_compass.png": {
+      "category": "unique-module",
+      "description": "Ghost Compass",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/unique_severance_capacitor.png": {
+      "category": "unique-module",
+      "description": "Severance Capacitor",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/unique_mnemonic_cooler.png": {
+      "category": "unique-module",
+      "description": "Mnemonic Cooler",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "modules/unique_slipstream_governor.png": {
+      "category": "unique-module",
+      "description": "Slipstream Governor",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "factions/insignia_0.png": {
+      "category": "faction-insignia",
+      "description": "faction insignia 0",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "factions/insignia_1.png": {
+      "category": "faction-insignia",
+      "description": "faction insignia 1",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "factions/insignia_2.png": {
+      "category": "faction-insignia",
+      "description": "faction insignia 2",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "factions/insignia_3.png": {
+      "category": "faction-insignia",
+      "description": "faction insignia 3",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "factions/insignia_4.png": {
+      "category": "faction-insignia",
+      "description": "faction insignia 4",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/base.png": {
+      "category": "ship-component",
+      "description": "base player hull",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/weapon_pulse_laser.png": {
+      "category": "ship-component",
+      "description": "pulse_laser hardpoint overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/weapon_twin_laser.png": {
+      "category": "ship-component",
+      "description": "twin_laser hardpoint overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/weapon_heavy_blaster.png": {
+      "category": "ship-component",
+      "description": "heavy_blaster hardpoint overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/weapon_relay_lance.png": {
+      "category": "ship-component",
+      "description": "relay_lance hardpoint overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/engine_t1.png": {
+      "category": "ship-component",
+      "description": "engine tier 1 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/engine_t2.png": {
+      "category": "ship-component",
+      "description": "engine tier 2 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/engine_t3.png": {
+      "category": "ship-component",
+      "description": "engine tier 3 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/engine_t4.png": {
+      "category": "ship-component",
+      "description": "engine tier 4 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/shield_t1.png": {
+      "category": "ship-component",
+      "description": "shield tier 1 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/shield_t2.png": {
+      "category": "ship-component",
+      "description": "shield tier 2 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/shield_t3.png": {
+      "category": "ship-component",
+      "description": "shield tier 3 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/shield_t4.png": {
+      "category": "ship-component",
+      "description": "shield tier 4 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/radar_t1.png": {
+      "category": "ship-component",
+      "description": "radar tier 1 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/radar_t2.png": {
+      "category": "ship-component",
+      "description": "radar tier 2 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/radar_t3.png": {
+      "category": "ship-component",
+      "description": "radar tier 3 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/radar_t4.png": {
+      "category": "ship-component",
+      "description": "radar tier 4 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/cargo_t1.png": {
+      "category": "ship-component",
+      "description": "cargo tier 1 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/cargo_t2.png": {
+      "category": "ship-component",
+      "description": "cargo tier 2 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/cargo_t3.png": {
+      "category": "ship-component",
+      "description": "cargo tier 3 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/cargo_t4.png": {
+      "category": "ship-component",
+      "description": "cargo tier 4 visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/unique_ghost_compass.png": {
+      "category": "ship-component",
+      "description": "Ghost Compass visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/unique_severance_capacitor.png": {
+      "category": "ship-component",
+      "description": "Severance Capacitor visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/unique_mnemonic_cooler.png": {
+      "category": "ship-component",
+      "description": "Mnemonic Cooler visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    },
+    "ship/unique_slipstream_governor.png": {
+      "category": "ship-component",
+      "description": "Slipstream Governor visible overlay",
+      "size": [
+        24,
+        24
+      ]
+    }
+  }
+}

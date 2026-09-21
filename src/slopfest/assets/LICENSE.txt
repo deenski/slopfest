@@ -1,0 +1,5 @@
+The bundled files in this directory are original Slopfest project assets created for this project.
+
+Unless an individual file or a provenance entry states otherwise, these assets are licensed under the project's root MIT LICENSE.
+
+Third-party assets must not be added here without a corresponding entry in ASSET_SOURCES.md identifying the creator, exact source, license, retrieval date, modifications, and required attribution.

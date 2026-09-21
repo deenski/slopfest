@@ -1,0 +1,48 @@
+name: Windows portable release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Build portable package
+        shell: powershell
+        run: .\build_windows.ps1
+      - name: Package ZIP and archive checksum
+        shell: powershell
+        run: |
+          $Zip = "dist\slopfest-${{ github.ref_name }}-windows-x64.zip"
+          Compress-Archive -Path dist\Slopfest -DestinationPath $Zip
+          $Hash = (Get-FileHash -Algorithm SHA256 $Zip).Hash.ToLower()
+          "$Hash  $(Split-Path $Zip -Leaf)" | Set-Content -Encoding ascii "$Zip.sha256"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: slopfest-windows-x64
+          path: |
+            dist/slopfest-${{ github.ref_name }}-windows-x64.zip
+            dist/slopfest-${{ github.ref_name }}-windows-x64.zip.sha256
+            dist/Slopfest-SHA256SUMS.txt
+      - name: Publish GitHub Release for tag
+        if: startsWith(github.ref, 'refs/tags/')
+        shell: powershell
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ github.ref_name }}" `
+            "dist\slopfest-${{ github.ref_name }}-windows-x64.zip" `
+            "dist\slopfest-${{ github.ref_name }}-windows-x64.zip.sha256" `
+            "dist\Slopfest-SHA256SUMS.txt" `
+            --title "Slopfest ${{ github.ref_name }}" `
+            --generate-notes
